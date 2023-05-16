@@ -1,0 +1,200 @@
+/* MA PAGE CSS  */
+
+@font-face {
+    font-family: "MaPolice";
+    src: url("Boba Milky.ttf");
+  }
+
+  @font-face {
+    font-family: "Apex";
+    src: url("Apex Regular.otf");
+  }
+  
+
+.titleSite{
+    font-size: 6.5em;
+    font-family: "Apex";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    background-color: rgba(255, 0, 0,0.8);
+    text-shadow: 4px 4px 0em rgb(240, 66, 66);
+ background-attachment: scroll;
+    display: flex;
+   align-items: top center;
+   justify-content:  center;
+   color: black;
+   
+   z-index: 1;
+}
+
+.PetiteDescription
+{
+    font-size:2em;
+    font-family: "Apex";
+    text-align: center;
+    position:relative;
+    z-index: 2;
+    top : 3.5em;
+
+}
+
+img:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(0.98);
+    opacity: 0.5;
+   
+  }
+
+  a:hover {
+    
+    text-shadow: 5px 5px black;
+    color: rgb(185, 133, 133);
+
+  }
+  a
+  {
+    text-decoration: none; /* supprimer le soulignement */
+    color:white;
+  }
+  .button-list {
+   
+    list-style-image: url("human-skull (1).png");
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    position: relative;
+  }
+  
+  .button-list li {
+    top:  7.5em;
+    right: -5em;
+   
+    /* display: inline-block; */
+     margin-right: 150px;  
+     z-index: 3;
+     position: relative;
+  }
+  
+   .button-list button { 
+    
+
+     background-color: black; 
+  
+    /* border: none; */
+     padding: 10px 90px; 
+     font-size: 30px; 
+     border-radius: 50px; 
+     border-color: white;
+    /* cursor: pointer; */
+    color: red;
+    font-family: "Apex";
+    text-align: center;
+    line-height:1.5em;
+    z-index: 3;
+    position: relative;
+  }
+  
+  .button-list button:hover {
+    background-color: white;
+    border-color: black;
+    color:black;
+  }
+
+  body {
+    background-color: black;
+  }
+/* LISTE DES JEUX */
+  .images-list li
+  { 
+   
+    position: relative;
+   top:26em;
+   max-height: 45em;
+   display: flex;
+  }
+  .images-list figcaption
+  {
+    font-size: 2em;
+    color: white;
+    font-family: "Apex";
+   text-shadow: 3px 3px rgba(95, 27, 27, 0.8);
+   background: fixed; 
+   background-color: rgba(255, 0, 0,0.8);
+    padding: 0.5em; 
+    border-radius: 5px; 
+  }
+  .JeuxListDescription
+  { 
+    line-height: 1.9em;
+
+    color: blue;
+    margin-left: 19em;
+    color: white;
+    font-family: "Apex";
+    font-size: 2em;
+    position: relative;
+    top:-18em;
+    
+  }
+  
+
+  /* liste des reseaux */
+  .Reseaux-list li
+  {
+    display: inline-block;
+    position: relative;
+    top : 20em;
+   left: 2em;
+ margin-left: 9em;
+ 
+  }
+  .ReseauxListDescription
+  {
+    color:white;
+    font-family: "Apex";
+    text-align: center;
+    background-color: red;
+    padding: 0.2em;
+    font-size: 2em;
+ 
+    align-items: center;
+    justify-content: center;
+  }
+ 
+.Petitbout
+{
+    background-color: rgba(255, 0, 0, 0.8);
+    
+    z-index: 3;
+    height: 2em;
+   top : 20em;
+   position: relative;
+   border-radius: 50px;
+}
+  
+ .textoklm
+  {
+    z-index: 3;
+    text-align: center;
+    color: white;
+    font-family: "Apex";
+    background-color: rgba(255, 0, 0, 0.8);
+    position: absolute;
+    top: 4.45em;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1em;
+    text-shadow: 4px 4px black;
+    font-size: 5em;
+    line-height: 2%;
+    height: 2%;
+ 
+  }
